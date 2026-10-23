@@ -1,0 +1,10 @@
+{
+  "name": "smile-agenda-distribution",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/validate.cjs && node --test plugins/smile-agenda/tests/core.test.cjs",
+    "release:version": "node scripts/version.cjs"
+  },
+  "engines": { "node": ">=18" }
+}

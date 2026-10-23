@@ -1,0 +1,23 @@
+{
+  "name": "smile-agenda",
+  "version": "0.1.1",
+  "description": "Sincroniza la agenda personal de Smile UFM con Google Calendar mediante Chrome y las herramientas conectadas del usuario.",
+  "author": {
+    "name": "Alejandro Machado"
+  },
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Smile Agenda",
+    "shortDescription": "Tus citas en Google Calendar",
+    "longDescription": "Plugin de flujo asistido para estudiantes de odontología. Lee Smile UFM desde Chrome con inicio de sesión manual y sincroniza esta semana y la próxima con Google Calendar. Cada estudiante utiliza su propia cuenta. Eventos privados con nombre del paciente, clínica, horario y estado, sin documentos, saldos ni notas clínicas. Requiere un entorno de escritorio con acceso a Chrome, herramientas de Google Calendar y archivos locales. No incluye un servidor remoto ni sincronización en segundo plano.",
+    "category": "Productivity",
+    "capabilities": [],
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Sincroniza mis citas de esta semana y la próxima con Google Calendar.",
+      "Conecta mi agenda de Smile y ayúdame a sincronizar mis citas."
+    ],
+    "developerName": "Alejandro Machado"
+  }
+}

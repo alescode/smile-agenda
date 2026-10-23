@@ -1,0 +1,10 @@
+{
+  "name": "smile-agenda-distribution",
+  "interface": { "displayName": "Smile Agenda" },
+  "plugins": [{
+    "name": "smile-agenda",
+    "source": { "source": "local", "path": "./plugins/smile-agenda" },
+    "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+    "category": "Productivity"
+  }]
+}
